@@ -1,3 +1,51 @@
 [submodule "dot-vim/pathogen"]
 	path = dot-vim/pathogen
 	url = git://github.com/tpope/vim-pathogen.git
+[submodule "dot-vim/bundle/javacup"]
+	path = dot-vim/bundle/javacup
+	url = git://github.com/vim-scripts/cup.vim.git
+[submodule "dot-vim/bundle/makeprgs"]
+	path = dot-vim/bundle/makeprgs
+	url = git://github.com/vim-scripts/makeprgs.git
+[submodule "dot-vim/bundle/scons"]
+	path = dot-vim/bundle/scons
+	url = git://github.com/vim-scripts/scons.vim.git
+[submodule "dot-vim/bundle/supertab"]
+	path = dot-vim/bundle/supertab
+	url = git://github.com/ervandew/supertab
+[submodule "dot-vim/bundle/syntastic"]
+	path = dot-vim/bundle/syntastic
+	url = git://github.com/scrooloose/syntastic.git
+[submodule "dot-vim/bundle/thrift"]
+	path = dot-vim/bundle/thrift
+	url = git://github.com/sprsquish/thrift.vim.git
+[submodule "dot-vim/bundle/typescript"]
+	path = dot-vim/bundle/typescript
+	url = git://github.com/leafgarland/typescript-vim.git
+[submodule "dot-vim/bundle/antlr"]
+	path = dot-vim/bundle/antlr
+	url = git://github.com/rollxx/vim-antlr.git
+[submodule "dot-vim/bundle/coffeescript"]
+	path = dot-vim/bundle/coffeescript
+	url = git://github.com/kchmck/vim-coffee-script.git
+[submodule "dot-vim/bundle/solarized"]
+	path = dot-vim/bundle/solarized
+	url = git://github.com/altercation/vim-colors-solarized.git
+[submodule "dot-vim/bundle/haml"]
+	path = dot-vim/bundle/haml
+	url = git://github.com/tpope/vim-haml.git
+[submodule "dot-vim/bundle/javascript"]
+	path = dot-vim/bundle/javascript
+	url = git://github.com/pangloss/vim-javascript.git
+[submodule "dot-vim/bundle/markdown"]
+	path = dot-vim/bundle/markdown
+	url = git://github.com/hallison/vim-markdown.git
+[submodule "dot-vim/bundle/mediawiki"]
+	path = dot-vim/bundle/mediawiki
+	url = git://github.com/kusnier/vim-mediawiki.git
+[submodule "dot-vim/bundle/scala"]
+	path = dot-vim/bundle/scala
+	url = git://github.com/derekwyatt/vim-scala.git
+[submodule "dot-vim/bundle/surround"]
+	path = dot-vim/bundle/surround
+	url = git://github.com/tpope/vim-surround.git

@@ -10,9 +10,6 @@ au BufRead,BufNewFile SConscript setfiletype scons
 " SCAML syntax highlighting, pretend it's HAML
 au BufRead,BufNewFile *.scaml setfiletype haml
 
-" Taskjuggler
-au BufRead,BufNewFile *.tjp,*.tji setfiletype tjp
-
 " JavaCUP hack
 au BufRead,BufNewFile *.cup setfiletype cup
 
@@ -66,13 +63,6 @@ set foldlevelstart=99
 
 " Display leader hint
 set showcmd
-
-" Change between bright and dark
-call togglebg#map("<F2>")
-
-" Magic run current file
-map <f7> :w <lf> :!chmod +x % <lf>
-map <f8> :w <lf> :!./% <lf>
 
 noremap k gk
 noremap j gj

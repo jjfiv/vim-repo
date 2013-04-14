@@ -17,6 +17,9 @@ au BufRead,BufNewFile *.cup setfiletype cup
 au FileType ts set makeprg=make
 set nocp
 
+" Scala hack
+au FileType scala set foldmethod=indent
+
 syntax enable
 if has('gui_running')
 	set background=dark

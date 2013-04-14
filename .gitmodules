@@ -49,3 +49,6 @@
 [submodule "dot-vim/bundle/surround"]
 	path = dot-vim/bundle/surround
 	url = git://github.com/tpope/vim-surround.git
+[submodule "dot-vim/bundle/ctrlp-vim"]
+	path = dot-vim/bundle/ctrlp-vim
+	url = git://github.com/kien/ctrlp.vim.git

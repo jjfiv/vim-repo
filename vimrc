@@ -19,6 +19,7 @@ set nocp
 
 " Scala hack
 au FileType scala set foldmethod=indent
+au FileType js set foldmethod=indent
 
 syntax enable
 if has('gui_running')
@@ -72,8 +73,10 @@ noremap j gj
 
 " path
 set path+=src
+set path+=include
 
-let g:syntastic_cpp_compiler_options="-Wall -Werror -std=c++0x"
+let g:syntastic_c_compiler_options="-Wall -Werror -std=c11 -Isrc -Iinclude"
+let g:syntastic_cpp_compiler_options="-Wall -Werror -std=c++11 -Isrc -Iinclude"
 let g:syntastic_cpp_compiler="clang++"
 let g:syntastic_ocaml_use_ocamlc = 1
 

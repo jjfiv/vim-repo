@@ -58,3 +58,6 @@
 [submodule "dot-vim/bundle/vim-clojure-static"]
 	path = dot-vim/bundle/vim-clojure-static
 	url = git://github.com/guns/vim-clojure-static.git
+[submodule "dot-vim/bundle/fireplace"]
+	path = dot-vim/bundle/fireplace
+	url = git://github.com/tpope/vim-fireplace.git

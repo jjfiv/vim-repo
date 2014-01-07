@@ -1,3 +1,3 @@
-ln -s ./vimrc ~/.vimrc
-ln -s ./dot-vim ~/.vim
+ln -s ~/vim-repo/vimrc ~/.vimrc
+ln -s ~/vim-repo/dot-vim ~/.vim
 git submodule update --init --recursive

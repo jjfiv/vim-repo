@@ -55,9 +55,9 @@
 [submodule "dot-vim/bundle/vim-clojure-static"]
 	path = dot-vim/bundle/vim-clojure-static
 	url = git://github.com/guns/vim-clojure-static.git
-[submodule "dot-vim/bundle/fireplace"]
-	path = dot-vim/bundle/fireplace
+[submodule "dot-vim/bundle/vim-fireplace"]
+	path = dot-vim/bundle/vim-fireplace
 	url = git://github.com/tpope/vim-fireplace.git
-[submodule "dot-vim/bundle/YouCompleteMe"]
-	path = dot-vim/bundle/YouCompleteMe
-	url = git@github.com:Valloric/YouCompleteMe.git
+[submodule "dot-vim/bundle/supertab"]
+	path = dot-vim/bundle/supertab
+	url = git@github.com:ervandew/supertab.git

@@ -10,9 +10,6 @@
 [submodule "dot-vim/bundle/scons"]
 	path = dot-vim/bundle/scons
 	url = git://github.com/vim-scripts/scons.vim.git
-[submodule "dot-vim/bundle/supertab"]
-	path = dot-vim/bundle/supertab
-	url = git://github.com/ervandew/supertab
 [submodule "dot-vim/bundle/syntastic"]
 	path = dot-vim/bundle/syntastic
 	url = git://github.com/scrooloose/syntastic.git
@@ -61,3 +58,6 @@
 [submodule "dot-vim/bundle/fireplace"]
 	path = dot-vim/bundle/fireplace
 	url = git://github.com/tpope/vim-fireplace.git
+[submodule "dot-vim/bundle/YouCompleteMe"]
+	path = dot-vim/bundle/YouCompleteMe
+	url = git@github.com:Valloric/YouCompleteMe.git

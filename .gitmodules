@@ -61,3 +61,6 @@
 [submodule "dot-vim/bundle/supertab"]
 	path = dot-vim/bundle/supertab
 	url = git@github.com:ervandew/supertab.git
+[submodule "dot-vim/bundle/vim-json"]
+	path = dot-vim/bundle/vim-json
+	url = git@github.com:leshill/vim-json.git

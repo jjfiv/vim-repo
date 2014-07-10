@@ -61,3 +61,6 @@
 [submodule "dot-vim/bundle/fireplace"]
 	path = dot-vim/bundle/fireplace
 	url = git://github.com/tpope/vim-fireplace.git
+[submodule "dot-vim/bundle/vim-json"]
+	path = dot-vim/bundle/vim-json
+	url = git@github.com:leshill/vim-json.git

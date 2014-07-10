@@ -35,7 +35,7 @@ set directory=~/tmp,/tmp,/var/tmp,.
 " Colors!!!
 
 " Use a bearable tab size...
-set ts=2
+set ts=20
 set shiftwidth=2
 set expandtab
 

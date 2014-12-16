@@ -1,3 +1,7 @@
-ln -s ~/vim-repo/vimrc ~/.vimrc
-ln -s ~/vim-repo/dot-vim ~/.vim
+#!/bin/bash
+
+set -eu
+
+ln -s `pwd`/vimrc ~/.vimrc
+ln -s `pwd`/dot-vim ~/.vim
 git submodule update --init --recursive
